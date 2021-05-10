@@ -1,0 +1,31 @@
+1. Consider the following code snippet.
+
+a- 	"second string"
+	"third string".
+
+b- Yes,it is the explain output which i guessed.
+	== program flow:
+	1- check if aNumber is >= 0 and condition return True.
+	2- check if aNumber is == 0 and condition return False.
+	3- go to else to execute and print "second string".
+	4- exit from if condition scope and print "thrid string".
+
+c- the code after edit:
+
+    if (aNumber >= 0)
+	    if(aNumber == 0)
+	        System.out.println("first String");
+	    else
+	        System.out.println("second String");
+	System.out.println("third String");
+
+d- the code after use {}:
+
+    if (aNumber >= 0) {
+	    if (aNumber == 0) {
+	        System.out.println("first String");
+	    } else {
+	        System.out.println("second String");
+	    }
+	}
+	System.out.println("third String");
